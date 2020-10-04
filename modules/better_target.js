@@ -1,7 +1,7 @@
 Hooks.once("ready", () => {
 	if (!game.modules.get('lib-wrapper')?.active) {
 		if (game.user.isGM) {
-			ui.notifications.error("Module XYZ requires the 'libWrapper' module. Please install and activate it.");
+			ui.notifications.error("Module better-target requires the 'libWrapper' module. Please install and activate it.");
 		}
 		return;
 	}
