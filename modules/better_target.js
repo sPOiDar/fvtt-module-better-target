@@ -32,13 +32,9 @@ Hooks.once("ready", () => {
 				.drawRoundedRect(center - (stroke / 2), stroke, stroke, center - padding)
 				.drawRoundedRect(center - (stroke / 2), center + padding - stroke, stroke, center - padding)
 				.drawRoundedRect(stroke, center - (stroke / 2), center - padding, stroke)
-				.drawRoundedRect(center + padding - stroke, center - (stroke / 2), center - padding, stroke)
-				/*
-				.drawRoundedRect(center - (stroke / 2), center + padding, stroke, size - center - (padding * 2))
-				.drawRoundedRect(center - (size / 2) + stroke, center - (stroke / 2), size - (stroke * 2), stroke)
-				*/
-				;
+				.drawRoundedRect(center + padding - stroke, center - (stroke / 2), center - padding, stroke);
 			/*
+			// Original indicator
 			.drawPolygon([-p, hh, -p - aw, hh - ah, -p - aw, hh + ah])
 			.drawPolygon([w + p, hh, w + p + aw, hh - ah, w + p + aw, hh + ah])
 			.drawPolygon([hw, -p, hw - ah, -p - aw, hw + ah, -p - aw])
