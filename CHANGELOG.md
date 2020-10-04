@@ -1,3 +1,13 @@
+## [0.1.3](https://github.com/sPOiDar/fvtt-module-better-target/compare/v0.1.2...v0.1.3) (2020-10-04)
+
+
+### Bug Fixes
+
+* **docs:** Speeeeling mistake ([af84204](https://github.com/sPOiDar/fvtt-module-better-target/commit/af84204))
+
+
+
+
 ## [0.1.2](https://github.com/sPOiDar/fvtt-module-better-target/compare/v0.1.1...v0.1.2) (2020-10-04)
 
 
