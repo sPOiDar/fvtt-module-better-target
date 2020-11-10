@@ -5,6 +5,7 @@ Hooks.once("ready", () => {
 		}
 		return;
 	}
+
 	// This is a horrible hack where we replace the entire method body, but I'm not certain there's a better way.
 	libWrapper.register('better-target', 'Token.prototype._refreshTarget', function () {
 		this.target.clear();
