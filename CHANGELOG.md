@@ -1,3 +1,13 @@
+## [0.1.8](https://github.com/sPOiDar/fvtt-module-better-target/compare/v0.1.7...v0.1.8) (2020-12-09)
+
+
+### Bug Fixes
+
+* **compatibility:** Bump core compat to v0.7.8 ([6a463db](https://github.com/sPOiDar/fvtt-module-better-target/commit/6a463db))
+
+
+
+
 ## [0.1.7](https://github.com/sPOiDar/fvtt-module-better-target/compare/v0.1.6...v0.1.7) (2020-11-14)
 
 
