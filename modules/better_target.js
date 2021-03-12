@@ -22,18 +22,20 @@ Hooks.once("ready", () => {
 			if (size > this.h) {
 				size = this.h;
 			}
-			const center = size / 2;
 			const padding = 12;
 			const stroke = 6;
+			const vmid = this.h / 2;
+			const hmid = this.w / 2;
+			const crossLen = (size / 2) - padding;
 			this.target.beginFill(0xc72121, 1.0).lineStyle(1, 0x000000)
-				.drawCircle(center, center, (size / 2) - padding)
+				.drawCircle(hmid, vmid, (size / 2) - padding)
 				.beginHole()
-				.drawCircle(center, center, (size / 2) - padding - stroke)
+				.drawCircle(hmid, vmid, (size / 2) - padding - stroke)
 				.endHole()
-				.drawRoundedRect(center - (stroke / 2), stroke, stroke, center - padding)
-				.drawRoundedRect(center - (stroke / 2), center + padding - stroke, stroke, center - padding)
-				.drawRoundedRect(stroke, center - (stroke / 2), center - padding, stroke)
-				.drawRoundedRect(center + padding - stroke, center - (stroke / 2), center - padding, stroke);
+				.drawRoundedRect(hmid - (stroke / 2), vmid - stroke - crossLen, stroke, crossLen)
+				.drawRoundedRect(hmid - (stroke / 2), vmid + padding - stroke, stroke, crossLen)
+				.drawRoundedRect(stroke, vmid - (stroke / 2), crossLen, stroke)
+				.drawRoundedRect(hmid + padding - stroke, vmid - (stroke / 2), crossLen, stroke);
 			/*
 			// Original indicator
 			.drawPolygon([-p, hh, -p - aw, hh - ah, -p - aw, hh + ah])
