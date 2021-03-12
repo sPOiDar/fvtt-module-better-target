@@ -34,7 +34,7 @@ Hooks.once("ready", () => {
 				.endHole()
 				.drawRoundedRect(hmid - (stroke / 2), vmid - stroke - crossLen, stroke, crossLen)
 				.drawRoundedRect(hmid - (stroke / 2), vmid + padding - stroke, stroke, crossLen)
-				.drawRoundedRect(stroke, vmid - (stroke / 2), crossLen, stroke)
+				.drawRoundedRect(hmid - stroke - crossLen, vmid - (stroke / 2), crossLen, stroke)
 				.drawRoundedRect(hmid + padding - stroke, vmid - (stroke / 2), crossLen, stroke);
 			/*
 			// Original indicator
