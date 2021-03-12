@@ -1,3 +1,14 @@
+## [0.1.10](https://github.com/sPOiDar/fvtt-module-better-target/compare/v0.1.9...v0.1.10) (2021-03-12)
+
+
+### Bug Fixes
+
+* **compatibility:** Bump core compat to v0.8.0 ([2cfc1ac](https://github.com/sPOiDar/fvtt-module-better-target/commit/2cfc1ac))
+* **display:** Calculate horizontal/vertical offsets discretely. ([1844ebf](https://github.com/sPOiDar/fvtt-module-better-target/commit/1844ebf)), closes [#2](https://github.com/sPOiDar/fvtt-module-better-target/issues/2)
+
+
+
+
 ## [0.1.9](https://github.com/sPOiDar/fvtt-module-better-target/compare/v0.1.8...v0.1.9) (2020-12-26)
 
 
