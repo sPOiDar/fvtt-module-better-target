@@ -1,3 +1,13 @@
+## [0.1.11](https://github.com/sPOiDar/fvtt-module-better-target/compare/v0.1.10...v0.1.11) (2021-03-12)
+
+
+### Bug Fixes
+
+* **display:** Fix calculation of horizontal offset when width > height ([85b120e](https://github.com/sPOiDar/fvtt-module-better-target/commit/85b120e))
+
+
+
+
 ## [0.1.10](https://github.com/sPOiDar/fvtt-module-better-target/compare/v0.1.9...v0.1.10) (2021-03-12)
 
 
