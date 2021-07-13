@@ -5,7 +5,7 @@
   "author": [
     "sPOiDar"
   ],
-  "version": "0.1.14",
+  "version": "0.1.15",
   "minimumCoreVersion": "0.6.6",
   "compatibleCoreVersion": "0.8.8",
   "esmodules": [
@@ -18,5 +18,5 @@
   ],
   "url": "https://github.com/sPOiDar/fvtt-module-better-target",
   "manifest": "https://github.com/sPOiDar/fvtt-module-better-target/raw/master/module.json",
-  "download": "https://github.com/sPOiDar/fvtt-module-better-target/releases/download/v0.1.14/better-target-v0.1.14.zip"
+  "download": "https://github.com/sPOiDar/fvtt-module-better-target/releases/download/v0.1.15/better-target-v0.1.15.zip"
 }
