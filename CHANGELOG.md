@@ -1,3 +1,13 @@
+## [0.1.17](https://github.com/sPOiDar/fvtt-module-better-target/compare/v0.1.16...v0.1.17) (2021-10-31)
+
+
+### Bug Fixes
+
+* **core:** Scale stroke/padding by token size ([88a5c0c](https://github.com/sPOiDar/fvtt-module-better-target/commit/88a5c0c)), closes [#3](https://github.com/sPOiDar/fvtt-module-better-target/issues/3) [#5](https://github.com/sPOiDar/fvtt-module-better-target/issues/5)
+
+
+
+
 ## [0.1.16](https://github.com/sPOiDar/fvtt-module-better-target/compare/v0.1.15...v0.1.16) (2021-08-22)
 
 
