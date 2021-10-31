@@ -22,20 +22,20 @@ Hooks.once("ready", () => {
 			if (size > this.h) {
 				size = this.h;
 			}
-			const padding = 12;
-			const stroke = 6;
+			const padding = size / 8;
+			const stroke = size / 16;
 			const vmid = this.h / 2;
 			const hmid = this.w / 2;
-			const crossLen = (size / 2) - padding;
+			const crossLen = (size / 2) - (padding * 1.5);
 			this.target.beginFill(0xc72121, 1.0).lineStyle(1, 0x000000)
 				.drawCircle(hmid, vmid, (size / 2) - padding)
 				.beginHole()
 				.drawCircle(hmid, vmid, (size / 2) - padding - stroke)
 				.endHole()
-				.drawRoundedRect(hmid - (stroke / 2), vmid - stroke - crossLen, stroke, crossLen)
-				.drawRoundedRect(hmid - (stroke / 2), vmid + padding - stroke, stroke, crossLen)
-				.drawRoundedRect(hmid - stroke - crossLen, vmid - (stroke / 2), crossLen, stroke)
-				.drawRoundedRect(hmid + padding - stroke, vmid - (stroke / 2), crossLen, stroke);
+				.drawRoundedRect(hmid - (stroke / 2), vmid - stroke - (padding / 2) - crossLen, stroke, crossLen)
+				.drawRoundedRect(hmid - (stroke / 2), vmid + (padding * 1.5) - stroke, stroke, crossLen)
+				.drawRoundedRect(hmid - stroke - (padding / 2) - crossLen, vmid - (stroke / 2), crossLen, stroke)
+				.drawRoundedRect(hmid + (padding * 1.5) - stroke, vmid - (stroke / 2), crossLen, stroke);
 			/*
 			// Original indicator
 			.drawPolygon([-p, hh, -p - aw, hh - ah, -p - aw, hh + ah])
