@@ -1,3 +1,13 @@
+## [0.1.18](https://github.com/sPOiDar/fvtt-module-better-target/compare/v0.1.17...v0.1.18) (2021-11-07)
+
+
+### Bug Fixes
+
+* **compatibility:** Preliminary implementation to support FoundryVTT v9 ([50edde3](https://github.com/sPOiDar/fvtt-module-better-target/commit/50edde3)), closes [#6](https://github.com/sPOiDar/fvtt-module-better-target/issues/6)
+
+
+
+
 ## [0.1.17](https://github.com/sPOiDar/fvtt-module-better-target/compare/v0.1.16...v0.1.17) (2021-10-31)
 
 
