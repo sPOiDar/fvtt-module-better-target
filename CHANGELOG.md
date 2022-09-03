@@ -1,3 +1,8 @@
+## [0.1.20](https://github.com/sPOiDar/fvtt-module-better-target/compare/v0.1.19...v0.1.20) (2022-09-03)
+
+
+
+
 ## [0.1.19](https://github.com/sPOiDar/fvtt-module-better-target/compare/v0.1.18...v0.1.19) (2021-12-25)
 
 

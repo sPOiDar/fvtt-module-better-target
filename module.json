@@ -3,11 +3,13 @@
   "name": "better-target",
   "title": "Better Target [Obsolete]",
   "description": "The default target indicator can be difficult to see in tight confines, or crowded rooms. This module changes the target indicator to a crosshair that renders over the targeted token.",
-  "authors": [{
-    "name": "sPOiDar",
-    "url": "https://github.com/sPOiDar"
-  }],
-  "version": "0.1.19",
+  "authors": [
+    {
+      "name": "sPOiDar",
+      "url": "https://github.com/sPOiDar"
+    }
+  ],
+  "version": "0.1.20",
   "minimumCoreVersion": "0.6.6",
   "compatibleCoreVersion": "9",
   "compatibility": {
@@ -29,5 +31,5 @@
   "bugs": "https://github.com/sPOiDar/fvtt-module-better-target/issues",
   "changelog": "https://github.com/sPOiDar/fvtt-module-better-target/blob/master/CHANGELOG.md",
   "manifest": "https://github.com/sPOiDar/fvtt-module-better-target/raw/master/module.json",
-  "download": "https://github.com/sPOiDar/fvtt-module-better-target/releases/download/v0.1.19/better-target-v0.1.19.zip"
+  "download": "https://github.com/sPOiDar/fvtt-module-better-target/releases/download/v0.1.20/better-target-v0.1.20.zip"
 }
