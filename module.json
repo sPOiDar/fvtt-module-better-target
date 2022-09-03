@@ -1,13 +1,20 @@
 {
+  "id": "better-target",
   "name": "better-target",
-  "title": "Better Target",
+  "title": "Better Target [Obsolete]",
   "description": "The default target indicator can be difficult to see in tight confines, or crowded rooms. This module changes the target indicator to a crosshair that renders over the targeted token.",
-  "author": [
-    "sPOiDar"
-  ],
+  "authors": [{
+    "name": "sPOiDar",
+    "url": "https://github.com/sPOiDar"
+  }],
   "version": "0.1.19",
   "minimumCoreVersion": "0.6.6",
   "compatibleCoreVersion": "9",
+  "compatibility": {
+    "minimum": "0.6.6",
+    "verified": 9,
+    "maximum": 9
+  },
   "esmodules": [
     "modules/better_target.js"
   ],

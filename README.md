@@ -1,4 +1,6 @@
-# Foundry VTT - Better Target
+# Foundry VTT - Better Target [Obsolete]
+
+**Note**: The primary issues that this module aimed to solved have now been fixed in Foundry VTT Core, by moving target indicators to a separate layer that's always visible. As such, this module will no longer be receiving updates. If you want alternative target indicators, [Smart Target](https://foundryvtt.com/packages/smarttarget) by theripper93 has incorporated the Better Target code (and more).
 
 ![Release](https://github.com/sPOiDar/fvtt-module-better-target/workflows/Release/badge.svg)
 ![Forge Users](https://img.shields.io/badge/dynamic/json?color=blue&label=Forge%20Users&query=package.installs&suffix=%25&url=https%3A%2F%2Fforge-vtt.com%2Fapi%2Fbazaar%2Fpackage%2Fbetter-target)
